@@ -1,2 +1,1 @@
-# employee-wage
-compute employee wage.
+# Welcome to Employee Wage Computation 
