@@ -36,9 +36,11 @@ do
 
                                 echo -------Permanent Employee wage Computation------- 
 				echo Employee present
+				echo -------Total wage along with daily wage-------
 				total_wage_of_Employee=$((wage_per_hour * working_hours))
 				((wage_per_day+=total_wage_of_Employee))
 				((present_working_days+=1))
+				echo Total wage along with daily wage=$wage_per_day
 				echo working_day=$total_working_days
 				echo -------Wage per day-------
 				echo Wage per day =$((wage_per_hour * working_hours))
